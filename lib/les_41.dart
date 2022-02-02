@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/i_widgets/my_scaffold.dart';
 
 // void main(){
 //   runApp(
@@ -121,13 +122,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context ){
     return const  MaterialApp(
-      home: Scaffold(
-        body: Icon(
-          Icons.access_alarm_outlined,
-          size: 200,
-          color: Colors.amber,
-        ),
-      ),
+      home: myScaffold(),
     );
   }
 }
+
+
+//const не стоит бездумно ставить
