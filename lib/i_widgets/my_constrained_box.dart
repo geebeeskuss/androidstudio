@@ -4,6 +4,7 @@ class myConstrainedBox extends StatelessWidget {
   const myConstrainedBox({Key? key}) : super(key: key);
 
   @override
+
   Widget build(BuildContext context) {
 
     // Основа SafeArea.

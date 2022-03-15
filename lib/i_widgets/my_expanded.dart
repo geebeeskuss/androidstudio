@@ -4,6 +4,7 @@ class myExpanded extends StatelessWidget {
   const myExpanded({Key? key}) : super(key: key);
 
   @override
+
   Widget build(BuildContext context) {
 
     // Основа SafeArea.

@@ -4,6 +4,7 @@ class myRow extends StatelessWidget {
   const myRow({Key? key}) : super(key: key);
 
   @override
+
   Widget build(BuildContext context) {
 
     // Основа SafeArea.

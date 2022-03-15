@@ -4,6 +4,7 @@ class myScaffold extends StatelessWidget {
   const myScaffold({Key? key}) : super(key: key);
 
   @override
+
   Widget build(BuildContext context) {
 
     // Основа SafeArea.

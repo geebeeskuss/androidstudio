@@ -4,6 +4,7 @@ class myColumn extends StatelessWidget {
   const myColumn({Key? key}) : super(key: key);
 
   @override
+
   Widget build(BuildContext context) {
 
     // Основа SafeArea.

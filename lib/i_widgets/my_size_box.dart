@@ -4,6 +4,7 @@ class mySizeBox extends StatelessWidget {
   const mySizeBox({Key? key}) : super(key: key);
 
   @override
+
   Widget build(BuildContext context) {
 
     // Основа SafeArea.

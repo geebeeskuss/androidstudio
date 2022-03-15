@@ -4,6 +4,7 @@ class myContainer extends StatelessWidget {
   const myContainer({Key? key}) : super(key: key);
 
   @override
+
   Widget build(BuildContext context) {
 
     // Основа SafeArea.

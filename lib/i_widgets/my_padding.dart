@@ -4,6 +4,7 @@ class myPadding extends StatelessWidget {
   const myPadding({Key? key}) : super(key: key);
 
   @override
+
   Widget build(BuildContext context) {
 
     // Основа SafeArea.

@@ -4,6 +4,7 @@ class myCenter extends StatelessWidget {
   const myCenter({Key? key}) : super(key: key);
 
   @override
+
   Widget build(BuildContext context) {
 
     // Основа SafeArea.
