@@ -1,5 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/screen/tg_settings.dart';
+import 'package:flutter_app/calc/calc1.dart';
+import 'package:flutter_app/les54/les54_layouts.dart';
+import 'package:flutter_app/les61/scrolling.dart';
+import 'package:flutter_app/les_53/medals/les_53.medals.dart';
+import 'package:flutter_app/screen/noble_gases/noble_gases_screen.dart';
+import 'package:flutter_app/screen/noble_gases/widgets/noble_gases_ribbon.dart';
+import 'package:flutter_app/screen/olimp.dart';
+// import 'package:flutter_app/screen/telega/tg_settings.dart';
+
 
 // void main() {
 //   runApp(const Text(
@@ -73,7 +81,7 @@ import 'package:flutter_app/screen/tg_settings.dart';
 //     //
 //     // The Flutter framework has been optimized to make rerunning build methods
 //     // fast, so that you can just rebuild anything that needs updating rather
-//     // than having to individually change instances of widgets.
+//     // than having to individually change instances of screen.noble_gases.screen.noble_gases.screen.noble_gases.widgets.screen.noble_gases.widgets.
 //     return Scaffold(
 //       appBar: AppBar(
 //         // Here we take the value from the MyHomePage object that was created by
@@ -131,7 +139,7 @@ import 'package:flutter_app/screen/tg_settings.dart';
   @override
   Widget build(BuildContext context ){
     return const  MaterialApp(
-    home: TelegramSettings(),
+    home:  Scrolltext(),
     );
   }
   }
